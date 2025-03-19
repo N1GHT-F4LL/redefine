@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
+  favicon: /images/favicon.ico
   # Site logo
-  logo: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
+  logo: /images/favicon.ico
   # Site avatar
-  avatar: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
+  avatar: /images/favicon.ico
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
