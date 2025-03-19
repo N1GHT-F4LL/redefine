@@ -93,7 +93,7 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
+    image: /images/favicon.ico
     description: n1ghtf4ll's blog 
   # Google Analytics
   google_analytics:
@@ -202,6 +202,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    Member:
+      path: /members
+      icon: fa-regular fa-user # can be empty
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -318,7 +321,7 @@ articles:
   # Whether to enable copyright notice
   copyright:
     enable: true # Whether to enable
-    default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
+    default: all_rights_reserved # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true
   # Pangu.js (automatically add space between Chinese and English). See https://github.com/vinta/pangu.js
@@ -455,7 +458,7 @@ plugins:
 # Docs: https://redefine-docs.ohevan.com/page_templates
 page_templates:
   # Friend Links page column number
-  friends_column: 2
+  friends_column: 3
   # Tags page style
   tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
