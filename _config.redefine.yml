@@ -203,7 +203,7 @@ navbar:
       path: / 
       icon: fa-regular fa-house # can be empty
     Member:
-      path: /members
+      path: /members/
       icon: fa-regular fa-user # can be empty
     # Archives: 
     #   path: /archives 
