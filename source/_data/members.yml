@@ -1,5 +1,5 @@
 
-- links_category: Expertise
+- members_category: Expertise
   has_thumbnail: true
   list:
     - name: n1ghtf4ll
@@ -13,7 +13,7 @@
       avatar: /images/favicon.ico
       thumbnail: /images/favicon.ico
       
-- links_category: Members
+- members_category: Members
   has_thumbnail: true
   list:
     - name: n1ghtf4ll
@@ -26,3 +26,4 @@
       description: shisuite
       avatar: /images/favicon.ico
       thumbnail: /images/favicon.ico
+ 

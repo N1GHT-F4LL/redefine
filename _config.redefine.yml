@@ -14,6 +14,7 @@ info:
   title: n1ghtf4ll's blog
   # Site subtitle
   subtitle: A place to record my life of learning and work.
+
   # Author name
   author: n1ghtf4ll
   # Site URL
@@ -131,7 +132,7 @@ home_banner:
   title: N1GHTF4LL's Blog
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["Welcome to my blog", "A place to record my life of learning and work.", "Enjoy your stay!","Just n1ghtf4ll"]
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -165,16 +166,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
-      instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      github: https://github.com/FPTU-Ethical-Hackers-Club
+      # instagram: # your Instagram URL
+      # zhihu:  # your ZhiHu URL
+      # twitter:  # your twitter URL
+      email:  ehc-fptu.club@gmail.com
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -245,6 +246,9 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
+      Members:
+        path: /members/
+        icon: fa-regular fa-user
       # Archives: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty
@@ -299,7 +303,7 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: []
+    list: ["MVP++"] # Custom author label list
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -347,7 +351,7 @@ articles:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: true
+  enable: false
   # Comment system
   system: waline # waline, gitalk, twikoo, giscus
   # System configuration
