@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: n1ghtf4ll's blog
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle: A place to record my life of learning and work.
   # Author name
-  author: The Redefine Team
+  author: n1ghtf4ll
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://blog.nfsv.dev
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
   # Site logo
-  logo: 
+  logo: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -93,8 +93,8 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/redefine-og.webp  # default og:image
-    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+    image: https://raw.githubusercontent.com/N1GHT-F4LL/FPTU-Ethical-Hackers-Club/refs/heads/main/Logo_White.png
+    description: n1ghtf4ll's blog 
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -128,7 +128,7 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: N1GHTF4LL's Blog
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
@@ -393,7 +393,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/03/20 00:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -446,7 +446,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: false # enable mermaid or not
+    enable: true # enable mermaid or not
     version: "11.4.1" # default v11.4.1
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
