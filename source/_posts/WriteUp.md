@@ -1,3 +1,6 @@
+---
+title: Write Up
+---
 ![image](https://hackmd.io/_uploads/rk1CsHWR1l.png)
 
 # Machine info and Comment
